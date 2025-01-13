@@ -1,0 +1,631 @@
+@media (max-width: 1160px) {
+  #footerSeccion2 {
+    padding: 17% 0 0 0;
+  }
+
+  #infofooter {
+    row-gap: 40px;
+    grid-template-columns: auto auto;
+    /*margin: 1% 5%;*/
+    display: grid;
+    background: #000000;
+  }
+
+  .infofooter1 {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    grid-column: 1/2;
+    width: fit-content;
+    align-self: center;
+    justify-self: center;
+    align-items: flex-start !important;
+    justify-items: flex-start !important;
+    font-size: 20px;
+    font-weight: 330;
+    line-height: 38px;
+    color: #ffffff;
+  }
+
+  .infofooter1 a img {
+    margin-left: 0%;
+  }
+
+  .infofooter1 span a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    color: #b4b7b7;
+    margin-left: 0%;
+  }
+
+  .infofooter2 {
+    display: flex;
+    flex-flow: column;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: fit-content;
+    text-align: left;
+    align-self: center;
+    justify-self: center;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    font-size: 20px;
+    font-weight: 330;
+    line-height: 38px;
+    color: #ffffff;
+  }
+
+  .infofooter2 span a {
+    text-decoration: none;
+    color: #b4b7b7;
+    text-align: start;
+  }
+
+  .infofooter3 {
+    display: flex;
+    flex-flow: column;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: fit-content;
+    text-align: left;
+    align-self: center;
+    justify-self: center;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    font-size: 20px;
+    font-weight: 330;
+    line-height: 38px;
+    color: #ffffff;
+  }
+
+  .infofooter3 span a {
+    text-decoration: none;
+    color: #b4b7b7;
+    text-align: start;
+    margin-right: 0%;
+    justify-content: center;
+  }
+
+  .infofooter4 {
+    display: flex;
+    flex-flow: column;
+    grid-column: 2/3;
+    width: fit-content;
+    text-align: left;
+    align-self: center;
+    justify-self: center;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    font-size: 20px;
+    font-weight: 330;
+    line-height: 38px;
+    color: #ffffff;
+  }
+
+  .infofooter4 span a {
+    text-decoration: none;
+    color: #b4b7b7;
+    text-align: start;
+  }
+}
+
+@media (max-width: 1030px) {
+  #footerSeccion2 {
+    padding: 18% 0 0 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  #fila1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+  }
+
+  #fila2 {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+  }
+
+  #cuartaSeccion {
+    margin-bottom: 5%;
+  }
+
+  .cajaimg4 {
+    display: none;
+  }
+
+  .contenedorimg {
+    height: 20vw;
+  }
+}
+
+@media (max-width: 980px) {
+  #sesiones {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  #cuerpoSeccion4 img {
+    height: 10%;
+  }
+}
+
+@media (max-width: 835px) {
+  #navegarImagen {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    display: grid;
+  }
+
+  #propiedadescuerpo {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 5px 20px;
+    text-align: center;
+    width: 50%;
+    font-size: 15px;
+  }
+
+  #navegarImagen2 {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    display: grid;
+  }
+
+  #propiedadescuerpo2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 5px 20px;
+    text-align: center;
+    width: 50%;
+    font-size: 15px;
+  }
+
+  #navegarImagen3 {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    display: grid;
+  }
+
+  #propiedadescuerpo3 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 5px 20px;
+    text-align: center;
+    width: 50%;
+  }
+
+  #footerSeccion1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+  }
+
+  #miniForm {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    align-items: initial;
+    margin: 2% 0 0 0;
+  }
+
+  #footerSeccion2 {
+    padding: 30% 0 0 0;
+  }
+
+  #infofooter {
+    row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .infofooter3 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+
+    margin-bottom: 3%;
+  }
+
+  .infofooter2 {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .infofooter4 {
+    display: flex;
+    grid-column: 2/3;
+  }
+
+  .infofooter1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  #piePagina {
+    margin-top: 5%;
+  }
+
+  #tituloServicio {
+    font-size: 22px;
+    line-height: 23px;
+  }
+
+  #tituloPrincipal4 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  #parrafoSeccion4 {
+    font-size: 18px;
+  }
+
+  #propiedadescuerpo {
+    text-align: center;
+  }
+
+  #propiedadescuerpo2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 773px) {
+  #social-media {
+    display: none;
+  }
+  #redSocial {
+    margin-top: 5%;
+    width: 100px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  #media1 {
+    width: 30px;
+    height: 30px;
+    background-image: url(https://uniqluxury.com.mx/wp-content/uploads/2022/08/InFollowRealEstate.svg);
+    background-repeat: no-repeat;
+  }
+  #media2 {
+    width: 30px;
+    height: 30px;
+    background-image: url(https://uniqluxury.com.mx/wp-content/uploads/2022/08/InstgFollowRealEstate.svg);
+    background-repeat: no-repeat;
+  }
+  #media3 {
+    width: 30px;
+    height: 30px;
+    background-image: url(https://uniqluxury.com.mx/wp-content/uploads/2022/08/FcbkFollowRealEstate.svg);
+    background-repeat: no-repeat;
+  }
+  #media4 {
+    width: 30px;
+    height: 30px;
+    background-image: url(https://uniqluxury.com.mx/wp-content/uploads/2022/08/YtbFollowRealEstate.svg);
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 740px) {
+  #footerSeccion2 {
+    padding: 39% 0 0 0;
+  }
+
+  #piePagina {
+    margin-top: 5%;
+  }
+
+  #imgSeccion4 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  #imgSeccion4 img {
+    height: 50%;
+    width: 90%;
+  }
+
+  #cuerpoSeccion4 img {
+    height: 9%;
+  }
+
+  #fila1 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  #fila2 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  .cajaimg3 {
+    display: none;
+  }
+
+  .contenedorimg {
+    height: 30vw;
+  }
+}
+
+@media (max-width: 605px) {
+  #busqueda {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #buscar {
+    grid-column: 1/1;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #seccionContenido {
+    margin: 5% 0 0 5%;
+    grid-column: 1/3;
+  }
+
+  #galeriaimg {
+    grid-column: 1/3;
+    height: 50vw;
+    grid-row: 2/3;
+    margin-top: 7%;
+    margin-right: 0;
+  }
+
+  #seccionContenido2 {
+    margin: 0 5%;
+    grid-column: 1/3;
+  }
+
+  #galeriaimg2 {
+    grid-column: 1/3;
+    height: 50vw;
+    grid-row: 2/3;
+    margin-top: 7%;
+    margin-right: 0;
+  }
+
+  #navegarImagen {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    padding: 0px;
+    justify-items: left;
+  }
+
+  #imgPrevia {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  #imgSiguiente {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  #propiedadescuerpo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(../img/flechaNaranja.png);
+    background-repeat: no-repeat;
+    background-position: 5%;
+    background-size: 12%;
+    color: #df991b;
+    border: 0;
+  }
+
+  #navegarImagen2 {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    justify-items: left;
+  }
+
+  #imgPrevia2 {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  #imgSiguiente2 {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  #propiedadescuerpo2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(../img/flechaNaranja.png);
+    background-repeat: no-repeat;
+    background-position: 5%;
+    background-size: 12%;
+    color: #df991b;
+    border: 0;
+  }
+
+  #contenidoParrafo {
+    text-align: left;
+    margin-bottom: 5%;
+  }
+
+  #tituloPrincipal {
+    text-align: left;
+  }
+
+  #titulo {
+    text-align: left;
+  }
+
+  #contenidoParrafo2 {
+    margin-bottom: 5%;
+  }
+
+  #cuartaSeccion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 5%;
+  }
+
+  #imgSeccion4 {
+    grid-column: 1/1;
+    grid-row: 2/2;
+  }
+
+  #cuerpoSeccion4 {
+    grid-column: 1/1;
+    grid-row: 1/2;
+    margin-top: 10%;
+  }
+
+  #cuerpoSeccion4 img {
+    height: 18%;
+  }
+
+  #navegarImagen3 {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    justify-items: left;
+  }
+
+  #imgPrevia3 {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  #imgSiguiente3 {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  #propiedadescuerpo3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(../img/flechaNaranja.png);
+    background-repeat: no-repeat;
+    background-position: 5%;
+    background-size: 12%;
+    color: #df991b;
+    border: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  #logo {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../img/logocelu.png) no-repeat;
+    /* La imagen sustituta */
+    width: 170px;
+    /* La anchura de la nueva imagen */
+    height: 50px;
+    /* La altura de la nueva imagen */
+    margin: 5% 0 0 5%;
+  }
+
+  #logo img {
+    display: none;
+  }
+
+  #footerSeccion2 {
+    padding: 50% 0 0 0;
+  }
+
+  .imegencarrusel {
+    min-height: 100%;
+  }
+
+  .imegencarrusel2 {
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  #footerSeccion2 {
+    padding: 70% 0 0 0;
+  }
+
+  #propiedadescuerpo {
+    width: 60%;
+  }
+
+  #propiedadescuerpo2 {
+    width: 60%;
+  }
+
+  #propiedadescuerpo3 {
+    width: 60%;
+  }
+
+  #fila1 {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  #fila2 {
+    grid-template-columns: 1fR;
+    display: grid;
+  }
+
+  .cajaimg2 {
+    display: none;
+  }
+
+  .contenedorimg {
+    height: 55vw;
+  }
+
+  .contenedorimg {
+    height: 55vw;
+  }
+
+  #titulo3 {
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  #tituloPrincipal3 {
+    text-align: left;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 422px) {
+  #propiedadescuerpo {
+    width: 90%;
+  }
+
+  #propiedadescuerpo2 {
+    width: 90%;
+  }
+
+  #cuerpoSeccion4 img {
+    height: 14%;
+  }
+
+  #footerSeccion2 {
+    padding: 55% 0 0 0;
+  }
+}
+
+@media (max-width: 414px) {
+  #footerSeccion2 {
+    padding: 65% 0 0 0;
+  }
+}
